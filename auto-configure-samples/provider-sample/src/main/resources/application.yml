@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: dubbo-auto-configuration-provider-demo
+
+dubbo:
+  scan:
+    base-packages: com.gzdzss.dubbo.spring.boot.demo.provider.service
+
+  registry:
+    address: N/A
+
+  protocol:
+    name: dubbo
+    port: 12345
