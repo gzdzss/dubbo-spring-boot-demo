@@ -22,3 +22,7 @@ dubbo:
     port: -1
   registry:
     address: nacos://${nacos.host}:${nacos.port}
+  config-center:
+    address: nacos://${nacos.host}:${nacos.port}
+  metadata-report:
+    address: nacos://${nacos.host}:${nacos.port}
