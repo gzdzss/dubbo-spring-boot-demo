@@ -11,7 +11,8 @@
 		<module>sample-api</module>
 		<module>auto-configure-samples</module>
 		<module>dubbo-registry-nacos-samples</module>
-	</modules>
+        <module>dubbo-registry-zk-samples</module>
+    </modules>
 	<name>dubbo-spring-boot-demo</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -81,6 +82,7 @@
 				<artifactId>dubbo-registry-nacos</artifactId>
 				<version>${dubbo.version}</version>
 			</dependency>
+
 
 			<dependency>
 				<groupId>com.alibaba.nacos</groupId>

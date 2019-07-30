@@ -7,6 +7,11 @@ package com.gzdzss.dubbo.spring.boot.demo.consumer;
 
 public interface DemoService {
 
+    /**
+     *  demo
+     * @param name
+     * @return
+     */
     String sayHello(String name);
 
 }

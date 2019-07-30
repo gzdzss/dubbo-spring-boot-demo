@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: dubbo-registry-zookeeper-provider-sample
+
+
+dubbo:
+  scan:
+    base-packages: com.gzdzss.dubbo.spring.boot.demo.provider.service
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
+
+demo:
+  service:
+    version: 1.0.0
